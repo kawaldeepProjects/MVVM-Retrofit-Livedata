@@ -12,7 +12,8 @@ import com.example.mvvmandretrofit.viewModels.MovieViewModel
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivityMainBinding
+
+    private  lateinit var binding: ActivityMainBinding
     private lateinit var viewModel: MovieViewModel
     private lateinit var movieAdapter : MovieAdapter
 
